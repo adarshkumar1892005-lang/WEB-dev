@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book vacation trip </title>
+</head>
+
+<body>
+    <h1>Go on a vacation by xyz travels </h1>
+    <img src="travel.jpg" alt="travel">
+    <form>
+        <p>General details</p>
+        <ul>
+            <div>
+                <label for="username"> Enter your username</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="email"> Enter your email address </label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <label for="age">Enter your age </label>
+                <input type="text" id="age">
+            </div>
+            <div>
+                <label for="gender"> Your gender is </label>
+                <input type="radio" id="male" name="gender" type="male">
+                <label for="male"> male</label>
+                <input type="radio" id="female" name="gender" type="female">
+                <label for="female"> female</label>
+            </div>
+            <div>
+                <label for="address"> Address (not full)</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
+        </ul>
+        <p>Trip details :</p>
+        <ul>
+            <div>
+                <label for="destiny">Choose your destiny</label>
+                <select name="destiny" id="destiny">
+                    <option value="goa"> Goa</option>
+                    <option value="Bombay"> Bombay</option>
+                    <option value="Agra"> Agra</option>
+                    <option value="Delhi "> Delhi </option>
+                    <option value="jammu & Kashmir"> jammu & Kashmir</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="Trip">Trip type:</label>
+                <input type="radio" id="one way" name="Trip" type="one way">
+                <label for="one way"> One way trip </label>
+                <input type="radio" id="round trip" name="Trip" type="round trip">
+                <label for="round trip"> round trip </label>
+                <input type="radio" id="multi city trip" name="Trip" type="multi city trip">
+                <label for="multi city trip"> multi city trip</label>
+            </div>
+            <div>
+                <label for="date"> Departure date</label>
+                <select name="date" id="date">
+                    <option value="10-06-2026">10-06-2026</option>
+                    <option value="12-06-2026">12-06-2026</option>
+                    <option value="14-06-2026">14-06-2026</option>
+                    <option value="16-06-2026">16-06-2026</option>
+                    <option value="18-06-2026">18-06-2026</option>
+                    <option value="20-06-2026">20-06-2026</option>
+                    <option value="22-06-2026">22-06-2026</option>
+                    <option value="24-06-2026">24-06-2026</option>
+                    <option value="26-06-2026">26-06-2026</option>
+                    <option value="28-06-2026">28-06-2026</option>
+                    <option value="30-06-2026">30-06-2026</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="time">Departure time </label>
+                <select name="time" id="time">
+                    <option value="9am"> 9am</option>
+                    <option value="10am">10am</option>
+                    <option value="11am">11am</option>
+                    <option value="12am">12am</option>
+                    <option value="4pm">4pm</option>
+                    <option value="5pm">5pm</option>
+                    <option value="6pm">6pm</option>
+                </select>
+            </div>
+        </ul>
+
+        <p>Preference: </p>
+        <div>
+            <label for="class">class</label>
+            <input type="radio" name="class" id="1st" type ="1st">
+            <label for="1st">1st class</label>
+            <input type="radio" name="class" id="2nd" type ="2nd">
+            <label for="2nd">2nd class</label>
+            <input type="radio" name="class" id="3rd" type ="3rd">
+            <label for="3rd">3rd class</label>
+        </div>
+
+        <p>Payment: </p>
+        <div>
+            <label for="Payment">Choose your way of Payment</label>
+            <select name="Payment" id="Payment">
+                <option value="UPI">UPI</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="Net Banking">Net Banking</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
